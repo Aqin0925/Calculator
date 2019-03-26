@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="69259085-e90a-40c1-8280-67a1927a372d" name="lj@李靖 2019-03-26 16:43:35" runUser="李靖\lj" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="本地" id="d759c49a-f013-49f2-ba30-c9b9e7caf43e">
+    <Description>这些设置为本地测试运行的默认测试设置。</Description>
+    <Deployment enabled="false" runDeploymentRoot="lj_李靖 2019-03-26 16_43_35">
+      <DeploymentItem filename="D:\阿超\Calculator\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2019-03-26T16:43:35.3406267+08:00" queuing="2019-03-26T16:43:35.4226314+08:00" start="2019-03-26T16:43:35.4436326+08:00" finish="2019-03-26T16:43:36.0266659+08:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestMethod1" storage="d:\阿超\calculator\consoleapplication1\testproject1\bin\debug\testproject1.dll" id="59863143-3238-122e-4d8a-637b491cc755">
+      <Execution id="4e386321-2729-4135-af47-d187f2eed7cb" />
+      <TestMethod codeBase="D:/阿超/Calculator/ConsoleApplication1/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.UnitTest1, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod1" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="列表中未列出的结果" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="所有已加载的结果" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="59863143-3238-122e-4d8a-637b491cc755" executionId="4e386321-2729-4135-af47-d187f2eed7cb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="4e386321-2729-4135-af47-d187f2eed7cb" testId="59863143-3238-122e-4d8a-637b491cc755" testName="TestMethod1" computerName="李靖" duration="00:00:00.0176364" startTime="2019-03-26T16:43:35.4496329+08:00" endTime="2019-03-26T16:43:35.9706627+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4e386321-2729-4135-af47-d187f2eed7cb">
+    </UnitTestResult>
+  </Results>
+</TestRun>
